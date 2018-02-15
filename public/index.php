@@ -5,41 +5,33 @@
 </head>
 
 
-<?php
-    # This is all of the dynamic data
-    $name = "Mike Bywater";
-    $postcode = "TF3 2NS";
-    $age = "33";
-    $gender = "Male";
-    $move = "Salsa Shuffle";
-    $id = $_GET['id'];
-?>
+
 
 <body>
 
-    <h1>Profile <?= $id ?></h1>
+    <h1>Profile #1</h1>
 
     <table class="u-full-width">
         <tbody>
         <tr>
             <th>Name</th>
-            <td><?= $name ?></td>
+            <td>Bob</td>
         </tr>
         <tr>
             <th>Age</th>
-            <td><?= $age ?></td>
+            <td>22</td>
         </tr>
         <tr>
             <th>Gender</th>
-            <td><?= $gender ?></td>
+            <td>Male</td>
         </tr>
         <tr>
             <th>Postcode</th>
-            <td><?= $postcode ?></td>
+            <td>TF1 2PQ</td>
         </tr>
         <tr>
             <th>Special Move</th>
-            <td><?= $move ?></td>
+            <td>Bear Hug</td>
         </tr>
         </tbody>
     </table>
